@@ -26,6 +26,9 @@ footer {
     margin-top: auto;
 }
 
+#links {
+    color:#333333;
+}
 
 .overlay {
     height: 0%;
