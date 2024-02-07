@@ -38,51 +38,40 @@ footer {
     background-color: rgba(0,0,0, 0.9);
     overflow-y: hidden;
     transition: 0.5s;
-  }
+}
   
-  .overlay-content {
+.overlay-content {
     position: relative;
     top: 25%;
     width: 100%;
     text-align: center;
     margin-top: 30px;
-  }
+}
   
-  .overlay a {
+.overlay a {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
     color: #818181;
     display: block;
     transition: 0.3s;
-  }
+}
   
-  .overlay a:hover, .overlay a:focus {
+.overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
-  }
+}
   
-  .overlay .closebtn {
+.overlay .closebtn {
     position: absolute;
     top: 20px;
     right: 45px;
     font-size: 60px;
-  }
+}
 
-  .container {
+.container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-}
-
-.element {
-    padding: 20px;
-}
-
-.left {
-    margin-right: auto; /* Pushes the left element to the far left */
-}
-
-.center {
-    margin-left: auto; /* Pushes the center element to the center */
 }
 
 #content {
@@ -93,8 +82,61 @@ footer {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+/* Styles for the social media and contact links */
+.social-contact-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-contact-section li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.social-contact-section img {
+    width: 24px; /* Adjust the width as needed */
+    height: 24px; /* Adjust the height as needed */
+    margin-right: 50px; /* Adjust the spacing between the logo and text */
+}
+
+.social-contact-section a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.social-contact-section a:hover {
+    text-decoration: underline;
+    color: #DC143C;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
   
-  @media screen and (max-height: 450px) {
+  input[type=submit] {
+    background-color: #DC143C;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #DC143C;
+  }
+  
+@media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
     .overlay .closebtn {
