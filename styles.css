@@ -4,7 +4,7 @@ body {
     font-family: 'Courier New', monospace;
     margin: 0;
     padding: 0;
-    background-color: #F5F5F5;
+    background-color: #c4c4c4;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -138,6 +138,17 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #DC143C;
   }
+
+  .flex-container {
+    display: flex;
+}
+
+.section1, .section2 {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
   
 @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
