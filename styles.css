@@ -6,6 +6,7 @@ body {
     padding: 0;
     background-color: #F5F5F5;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     min-height: 100vh;
 }
@@ -66,6 +67,32 @@ footer {
     right: 45px;
     font-size: 60px;
   }
+
+  .container {
+    display: flex;
+    align-items: center;
+}
+
+.element {
+    padding: 20px;
+}
+
+.left {
+    margin-right: auto; /* Pushes the left element to the far left */
+}
+
+.center {
+    margin-left: auto; /* Pushes the center element to the center */
+}
+
+#content {
+    max-width: auto;
+    margin: 20px 10%;
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
   
   @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
