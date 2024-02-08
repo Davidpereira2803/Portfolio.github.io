@@ -1,0 +1,19 @@
+{
+    "projects": [
+      {
+        "name": "Project Portfolio",
+        "description": "The Portfolio Website is the site you are currently on, I developped the website to present the work that I am doing, so I also include it into my project portfolio. The website is created using HTML, CSS and JavaScript and also uses external tools/services to allow and facilitate some manpulations.",
+        "technologies": ["HTML", "CSS","JavaScript","Json"],
+        "url": "https://github.com/Davidpereira2803/Portfolio.github.io",
+        "image": ""
+      },
+      {
+        "name": "Botanical App",
+        "description": "The Botanical App is a python program with a simple User Interface to manage and create Gin recipes. This app is kept very simple and is only programmed to store and manage the inventory of the gin producer and to compose the gin recipes with the materials from the inventory. Furthermore, the app allows to make some useful computations, such as a dilution calculator, which is handy for the production of the gin. <br> The app is working, but some new features may be added in the future to make it more complete and perhaps actualy usable for a DIY gin producer.",
+        "technologies": ["Python"],
+        "url": "https://github.com/Davidpereira2803/BotanicalApp",
+        "image": ""
+      }
+    ]
+  }
+  

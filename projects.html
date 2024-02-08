@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <script src="scripts/script.js" defer></script>
     
     <title>Project - Portfolio</title>
 
@@ -45,54 +45,18 @@
         </section>
         <section id="content">
             <h2>University Projects</h2>
-        <p>
-            During my studies I have worked with the Automation and Robotics Research Group (ARG), to do my Bachelor Semester Project. <br>
-            In my second semester <strong>(<a id="links" href="https://github.com/Davidpereira2803/BiCS-BSP-S2-SLAM-in-drone-robotics">BSPS2</a>)</strong> I have worked with a DJI Tello drone and ORBSLAM3 to create maps of environments using the drone. I created a benchmark
-            program to compare different sensors in different environments. <br>
-            For my third semester I have worked again with ARG, but this time I contributed to a project of them, where I worked in a ROS environment
-            to create a Behavior Tree to control different drone capabilities.
-        </p>
+            <div id="uni-projects-container"></div>
         </section>
+
         <section id="content">
             <h2>Private Projects</h2>
-            <ul>
-                <li>Portfolio Website</li>
-                <p>
-                    The Portfolio Website is the site you are currently on, I developped the website to present the work that I am doing, so I also include it into my project portfolio. 
-                    The website is created using HTML, CSS and JavaScript and also uses external tools/services to allow and facilitate some manpulations.
-                </p>
-                <p>
-                <a id="links" href="https://github.com/Davidpereira2803/Portfolio.github.io">GitHub Repository</a>
-                </p>
-                <li>Botanicals App</li>
-                <p>
-                    The Botanical App is a python program with a simple User Interface to manage and create Gin recipes. This app is kept very simple
-                    and is only programmed to store and manage the inventory of the gin producer and to compose the gin recipes with the materials from the inventory.
-                    Furthermore, the app allows to make some useful computations, such as a dilution calculator, which is handy for the production of the gin. 
-                    <br>
-                    The app is working, but some new features may be added in the future to make it more complete and perhaps actualy usable for a DIY gin producer.
-                </p>
-                <p>
-                <a id="links" href="https://github.com/Davidpereira2803/BotanicalApp">GitHub Repository</a>
-                </p>
-            </ul>
-        <p>
-
-        </p>
+            <div id="projects-container"></div>
+            <script src="scripts/contentmanager.js"></script>
         </section>
     </div>
 
-
-    
-
-
-    <script>
-
-    </script>
     <footer>
         <p>&copy; 2024 David Pereira de Magalhaes. All Rights Reserved.</p>
-
-
     </footer>
 </body>
 
