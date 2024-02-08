@@ -4,7 +4,7 @@ body {
     font-family: 'Courier New', monospace;
     margin: 0;
     padding: 0;
-    background-color: #c4c4c4;
+    background-color: #A9A9A9;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -80,7 +80,7 @@ footer {
 #content {
     max-width: auto;
     margin: 20px 10%;
-    background-color: #F5F5F5;
+    background-color: #D0D0D0;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

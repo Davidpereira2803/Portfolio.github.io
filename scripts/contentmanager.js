@@ -1,20 +1,16 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Fetch data when the DOM content is loaded
     fetch('projects-content/privatecontent.json')
       .then(response => response.json())
       .then(data => {
-        // Use data to update your website content
         updateProjects(data.projects);
       })
       .catch(error => console.error('Error fetching data:', error));
   });
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Fetch data when the DOM content is loaded
     fetch('projects-content/unicontent.json')
       .then(response => response.json())
       .then(data => {
-        // Use data to update your website content
         updateUniProjects(data.projects);
       })
       .catch(error => console.error('Error fetching data:', error));
@@ -37,13 +33,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-
 function updateUniProjects(projects) {
     const projectsContainer = document.getElementById('uni-projects-container');
   
     projects.forEach(project => {
       const projectElement = document.createElement('div');
-      projectElement.innerHTML = `<p>${project.description}</p>`;
+      projectElement.innerHTML = `<p>${project.content}</p>`;
   
       projectsContainer.appendChild(projectElement);
     });
