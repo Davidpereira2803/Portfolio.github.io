@@ -149,6 +149,13 @@ input[type=text], select, textarea {
     padding: 20px;
 }
 
+#mid-logo {
+    max-width: 15%; 
+    max-height: 15%;
+    height: auto;
+    width: auto; 
+  }
+  
   
 @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
