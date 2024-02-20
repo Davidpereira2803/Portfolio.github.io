@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
       .catch(error => console.error('Error fetching data:', error));
   });
   
-  function updateProjects(projects) {
+function updateProjects(projects) {
     const projectsContainer = document.getElementById('projects-container');
   
     projects.forEach(project => {
