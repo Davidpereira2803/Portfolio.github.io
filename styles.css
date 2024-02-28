@@ -1,10 +1,8 @@
-
-
 body {
     font-family: 'Courier New', monospace;
     margin: 0;
     padding: 0;
-    background-color: #A9A9A9;
+    background-color: #71797E;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -12,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #DC143C;
+    background: linear-gradient(to bottom, #922724, #D03632);
     color: #fff;
     text-align: center;
     padding: 1em;
@@ -27,7 +25,7 @@ footer {
 }
 
 #links {
-    color:#333333;
+    color: #333333;
 }
 
 .overlay {
@@ -37,12 +35,12 @@ footer {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
     overflow-y: hidden;
     transition: 0.5s;
 }
-  
+
 .overlay-content {
     position: relative;
     top: 25%;
@@ -50,7 +48,7 @@ footer {
     text-align: center;
     margin-top: 30px;
 }
-  
+
 .overlay a {
     padding: 8px;
     text-decoration: none;
@@ -59,11 +57,12 @@ footer {
     display: block;
     transition: 0.3s;
 }
-  
-.overlay a:hover, .overlay a:focus {
+
+.overlay a:hover,
+.overlay a:focus {
     color: #f1f1f1;
 }
-  
+
 .overlay .closebtn {
     position: absolute;
     top: 20px;
@@ -86,7 +85,6 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Styles for the social media and contact links */
 .social-contact-section ul {
     list-style: none;
     padding: 0;
@@ -99,9 +97,9 @@ footer {
 }
 
 .social-contact-section img {
-    width: 24px; /* Adjust the width as needed */
-    height: 24px; /* Adjust the height as needed */
-    margin-right: 50px; /* Adjust the spacing between the logo and text */
+    width: 24px;
+    height: 24px;
+    margin-right: 50px;
 }
 
 .social-contact-section a {
@@ -115,7 +113,9 @@ footer {
 }
 
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -124,45 +124,51 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
-  
-  input[type=submit] {
+}
+
+input[type=submit] {
     background-color: #DC143C;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #DC143C;
-  }
+}
 
-  .flex-container {
+input[type=submit]:hover {
+    background-color: #DC143C;
+}
+
+.flex-container {
     display: flex;
 }
 
-.section1, .section2 {
+.section1,
+.section2 {
     flex: 1;
     box-sizing: border-box;
     padding: 20px;
 }
 
-#mid-logo {
-    max-width: 15%; 
-    max-height: 15%;
-    height: auto;
-    width: auto; 
-  }
-  
-  
+
+#home-links {
+    color: #fff;
+    text-decoration: none;
+}
+
+
 @media screen and (max-height: 450px) {
-    .overlay {overflow-y: auto;}
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
+    .overlay {
+        overflow-y: auto;
     }
-  }
+
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}

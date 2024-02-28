@@ -1,0 +1,12 @@
+{
+    "projects": [
+      {
+        "name": "Project Portfolio",
+        "description": "The Portfolio Website is the site you are currently on, I developped the website to present the work that I am doing, so I also include it into my project portfolio. The website is created using HTML, CSS and JavaScript and also uses external tools/services to allow and facilitate some manpulations.",
+        "technologies": ["HTML", "CSS","JavaScript","Json"],
+        "url": "https://github.com/Davidpereira2803/Portfolio.github.io",
+        "image": ""
+      }
+    ]
+  }
+  
