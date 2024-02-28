@@ -1,2 +1,4 @@
 ./projects-content/privatecontent.json
 ./projects-content/unicontent.json
+
+*.json
