@@ -22,6 +22,14 @@
         "image": "images/main.png",
         "image2": "images/dashboard.png"
 
+      },
+      {
+        "name": "University Grades Webapp",
+        "description": "This project is the webapp version of the University Grades mobile application. It consists of allowing the user to create an account, and save/compute their grades. The grades and account are stored in FireBase, thus they are accessible from around the world and each user can access them in all their devices via the website. <br> This project is set to be finished rather soon and be available for free.",
+        "technologies":["HTML","CSS","JavaScript","FireBase"],
+        "url":"https://github.com/Davidpereira2803/unigrades.web",
+        "image":"",
+        "image2":""
       }
     ]
   }
